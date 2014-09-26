@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>44BD5939-6D7D-4114-AB11-665E174D4BAD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TipCalculator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9025EAF647B59C99DEA16DFEEE75610AD883B315</key>
+		<string>https://github.com/55011212185vare/55011212185Oranee.git</string>
+		<key>E1EC2F78955AA3600832154AD3B289BEEF5FE162</key>
+		<string>https://github.com/55011212079Miew/55011212079Nittaya.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TipCalculatorDelegate/TipCalculator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9025EAF647B59C99DEA16DFEEE75610AD883B315</key>
+		<string>../../../../55011212185Oranee</string>
+		<key>E1EC2F78955AA3600832154AD3B289BEEF5FE162</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/55011212079Miew/55011212079Nittaya.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E1EC2F78955AA3600832154AD3B289BEEF5FE162</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E1EC2F78955AA3600832154AD3B289BEEF5FE162</string>
+			<key>IDESourceControlWCCName</key>
+			<string>55011212079Nittaya</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9025EAF647B59C99DEA16DFEEE75610AD883B315</string>
+			<key>IDESourceControlWCCName</key>
+			<string>55011212185Oranee</string>
+		</dict>
+	</array>
+</dict>
+</plist>
