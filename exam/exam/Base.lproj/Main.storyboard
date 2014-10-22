@@ -30,13 +30,14 @@
                                 </items>
                             </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdD-fL-b3m">
-                                <rect key="frame" x="153" y="174" width="79" height="21"/>
+                                <rect key="frame" x="117" y="174" width="115" height="21"/>
+                                <color key="backgroundColor" red="0.78059420619999997" green="0.92424156020000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Unknow">
                                         <attributes>
                                             <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <font key="NSFont" size="17" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -48,7 +49,7 @@
                     <navigationItem key="navigationItem" id="y80-np-yan"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="ColorLabel" destination="bdD-fL-b3m" id="ysv-RC-tfS"/>
+                        <outlet property="colorLabel" destination="bdD-fL-b3m" id="fja-Tq-kf8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -67,8 +68,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8UF-YW-sjg">
+                                <rect key="frame" x="142" y="170" width="88" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sTR-03-Dec">
+                                <rect key="frame" x="27" y="86" width="320" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="uG1-Dg-pX9">
+                                        <barButtonItem key="rightBarButtonItem" title="Save" style="done" id="d4u-0h-hch">
+                                            <connections>
+                                                <action selector="saveColor:" destination="Tp8-Md-3qm" id="vkh-Qr-exI"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FNj-RM-hrn">
-                                <rect key="frame" x="47" y="229" width="30" height="30"/>
+                                <rect key="frame" x="43" y="226" width="41" height="30"/>
+                                <color key="backgroundColor" red="0.84611856939999996" green="0.92596030240000005" blue="0.86256009339999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Red">
@@ -80,21 +100,23 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="ColorSelectionButton:" destination="Tp8-Md-3qm" eventType="touchUpInside" id="xsO-SN-8gH"/>
+                                    <action selector="colorSelectionButton:" destination="Tp8-Md-3qm" eventType="touchUpInside" id="ca5-1k-DpH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHE-L8-7aw">
-                                <rect key="frame" x="169" y="229" width="37" height="30"/>
+                                <rect key="frame" x="165" y="226" width="37" height="30"/>
+                                <color key="backgroundColor" red="0.84611856939999996" green="0.92596030240000005" blue="0.86256009339999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                 <state key="normal" title="Bule">
                                     <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="ColorSelectionButton:" destination="Tp8-Md-3qm" eventType="touchUpInside" id="zhQ-KL-9Iq"/>
+                                    <action selector="colorSelectionButton:" destination="Tp8-Md-3qm" eventType="touchUpInside" id="9xr-1e-Y75"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wPZ-v8-znx">
-                                <rect key="frame" x="276" y="229" width="59" height="30"/>
+                                <rect key="frame" x="272" y="226" width="59" height="30"/>
+                                <color key="backgroundColor" red="0.84611856939999996" green="0.92596030240000005" blue="0.86256009339999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Green">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Green">
@@ -106,34 +128,16 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <action selector="ColorSelectionButton:" destination="Tp8-Md-3qm" eventType="touchUpInside" id="RyO-eX-nOp"/>
+                                    <action selector="colorSelectionButton:" destination="Tp8-Md-3qm" eventType="touchUpInside" id="1AG-u2-t34"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8UF-YW-sjg">
-                                <rect key="frame" x="166" y="170" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sTR-03-Dec">
-                                <rect key="frame" x="27" y="86" width="320" height="44"/>
-                                <items>
-                                    <navigationItem title="Title" id="uG1-Dg-pX9">
-                                        <barButtonItem key="rightBarButtonItem" title="Save" style="done" id="d4u-0h-hch">
-                                            <connections>
-                                                <action selector="savecolor:" destination="Tp8-Md-3qm" id="dNI-xG-iJv"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.78059420620437958" green="0.92424156021897808" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="1" green="0.45725049919999999" blue="0.17527624380000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="colorLabel" destination="8UF-YW-sjg" id="Irl-KD-JTh"/>
+                        <outlet property="colorLabel" destination="8UF-YW-sjg" id="cQ1-VI-Jar"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HHn-81-USu" userLabel="First Responder" sceneMemberID="firstResponder"/>
