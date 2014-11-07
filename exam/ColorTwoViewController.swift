@@ -19,7 +19,20 @@ class ColorTwoViewController: UIViewController {
 
     @IBAction func colorSelectionButton(sender: UIButton) {
     
-        colorLabel.text = sender.titleLabel!.text
+        colorLabel.text = sender.titleLabel!.text!
+        if(sender.titleLabel!.text!=="Red"){
+            view.backgroundColor = UIColor.redColor()
+            colorLabel.textColor = UIColor.redColor();
+            colorLabel.backgroundColor = UIColor.darkGrayColor();
+        }else if(sender.titleLabel!.text!=="Bule"){
+            view.backgroundColor = UIColor.blueColor()
+            colorLabel.textColor = UIColor.blueColor();
+            colorLabel.backgroundColor = UIColor.darkGrayColor();
+        }else if(sender.titleLabel!.text!=="Green"){
+            view.backgroundColor = UIColor.greenColor()
+            colorLabel.textColor = UIColor.greenColor();
+            colorLabel.backgroundColor = UIColor.darkGrayColor();
+        }
     }
    
 

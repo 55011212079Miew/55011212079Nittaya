@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>92CA3D6F-E46E-4BAC-B01D-3F86AFB2C5D3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>coreDataExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E1EC2F78955AA3600832154AD3B289BEEF5FE162</key>
+		<string>https://github.com/55011212079Miew/55011212079Nittaya.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>coreDataExample/coreDataExample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E1EC2F78955AA3600832154AD3B289BEEF5FE162</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/55011212079Miew/55011212079Nittaya.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E1EC2F78955AA3600832154AD3B289BEEF5FE162</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E1EC2F78955AA3600832154AD3B289BEEF5FE162</string>
+			<key>IDESourceControlWCCName</key>
+			<string>55011212079Nittaya</string>
+		</dict>
+	</array>
+</dict>
+</plist>

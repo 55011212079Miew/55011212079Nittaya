@@ -19,11 +19,14 @@
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4jN-j1-z5L">
                                 <rect key="frame" x="24" y="85" width="326" height="44"/>
                                 <color key="tintColor" red="0.066067324982610517" green="0.16833873047510692" blue="0.92596030235290527" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
                                 <items>
                                     <navigationItem title="Click" id="Vqb-68-XWG">
                                         <barButtonItem key="rightBarButtonItem" title="Color" style="done" id="pd4-4a-9f2">
                                             <connections>
-                                                <segue destination="Tp8-Md-3qm" kind="show" identifier="myCegue" id="kDv-JP-nxB"/>
+                                                <segue destination="Tp8-Md-3qm" kind="show" identifier="mySegue" id="kDv-JP-nxB"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -71,7 +74,6 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8UF-YW-sjg">
                                 <rect key="frame" x="142" y="170" width="88" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sTR-03-Dec">

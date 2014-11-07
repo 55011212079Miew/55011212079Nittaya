@@ -19,6 +19,21 @@ class ViewController: UIViewController,ColorTwoViewControllerDelegate{
     }
     func myVCDidFinish(controller: ColorTwoViewController, text: String){
         colorLabel.text = "Co: " + text
+        if(text=="Red"){
+            view.backgroundColor = UIColor.redColor()
+            colorLabel.textColor = UIColor.redColor();
+            colorLabel.backgroundColor = UIColor.darkGrayColor();
+        }
+        else if(text=="Bule"){
+            view.backgroundColor = UIColor.blueColor()
+            colorLabel.textColor = UIColor.blueColor();
+            colorLabel.backgroundColor = UIColor.darkGrayColor();
+        }
+        else if(text=="Green"){
+            view.backgroundColor = UIColor.greenColor()
+            colorLabel.textColor = UIColor.greenColor();
+            colorLabel.backgroundColor = UIColor.darkGrayColor();
+    }
         controller.navigationController?.popViewControllerAnimated(true)
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
