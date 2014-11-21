@@ -14,6 +14,7 @@
 		3F4315701A0C9D6F00D803AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F43156F1A0C9D6F00D803AD /* Images.xcassets */; };
 		3F4315731A0C9D6F00D803AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F4315711A0C9D6F00D803AD /* LaunchScreen.xib */; };
 		3F43157F1A0C9D6F00D803AD /* UIKit_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43157E1A0C9D6F00D803AD /* UIKit_AnimationTests.swift */; };
+		3FB01A371A1F3B7300ED37BE /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB01A361A1F3B7300ED37BE /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3F4315781A0C9D6F00D803AD /* UIKit AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIKit AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F43157D1A0C9D6F00D803AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F43157E1A0C9D6F00D803AD /* UIKit_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit_AnimationTests.swift; sourceTree = "<group>"; };
+		3FB01A361A1F3B7300ED37BE /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB01A371A1F3B7300ED37BE /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		3F4315571A0C9D6F00D803AD = {
 			isa = PBXGroup;
 			children = (
+				3FB01A361A1F3B7300ED37BE /* CoreMotion.framework */,
 				3F4315621A0C9D6F00D803AD /* UIKit Animation */,
 				3F43157B1A0C9D6F00D803AD /* UIKit AnimationTests */,
 				3F4315611A0C9D6F00D803AD /* Products */,
@@ -409,6 +413,7 @@
 				3F4315841A0C9D6F00D803AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F4315851A0C9D6F00D803AD /* Build configuration list for PBXNativeTarget "UIKit AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				3F4315871A0C9D6F00D803AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
